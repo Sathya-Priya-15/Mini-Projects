@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sathya A - Resume</title>
+    <style>
+      body {
+        background-color: #eef6fb;
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .container {
+        background-color: #fff;
+        max-width: 900px;
+        margin: auto;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        text-align: center;
+      }
+      .profile-pic {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #0077cc;
+      }
+      h1 {
+        color: #0077cc;
+        margin-bottom: 5px;
+      }
+      h2 {
+        color: #333;
+        border-bottom: 2px solid #0077cc;
+        padding-bottom: 5px;
+      }
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+      }
+      .section {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="data:image/png;base64,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"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+        <h1>Sathyapriya A</h1>
+        <p>
+          Email: arsathya15@gmail.com | Phone: +91-9876543210<br />
+          Location: coimbatore, India
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Personal Details</h2>
+        <ul>
+          <li><strong>Date of Birth:</strong> 16-June-1997</li>
+          <li><strong>Gender:</strong> Female</li>
+          <li><strong>Marital Status:</strong> Married</li>
+          <li><strong>Languages:</strong> English, Tamil</li>
+          <li>
+            <strong>Address:</strong> 4 in one
+            apartment,saravanampatti,coimbatore
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Academic Details</h2>
+        <table>
+          <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>Msc-Maths</td>
+            <td>Maharani arts and science college</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>B.Sc-Maths(CA)</td>
+            <td>aharani arts and science college</td>
+            <td>2017</td>
+          </tr>
+          <tr>
+            <td>HSC</td>
+            <td>st.Aloysius Higher Secondary School</td>
+            <td>2014</td>
+          </tr>
+          <tr>
+            <td>SSLC</td>
+            <td>Government High School</td>
+            <td>2012</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="section">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>React.js, Node.js, MongoDB</li>
+          <li>Bootstrap</li>
+          <li>Git & GitHub</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <strong>E-commerce Pharma App:</strong> Developed a complete web app
+            for pharmacy shopping with user login, cart, checkout, and
+            prescription uploads.
+          </li>
+          <li>
+            <strong>Grocery Store App:</strong> Simple React-based grocery
+            listing and cart app.
+          </li>
+          <li>
+            <strong>Portfolio Website:</strong> Personal portfolio to showcase
+            projects and resume, built using HTML, CSS, and JavaScript.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Work Experience</h2>
+        <ul>
+          <li>
+            <strong>Web Developer Intern</strong> at Edureka Learning Center-
+            Nov 2024 to Apr 2025<br />
+            Worked on building responsive websites using React . Assisted in
+            integrating APIs and database using Node.js and MongoDB.
+          </li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Cooking new recipes</li>
+          <li>Watching tech tutorials and TV shows</li>
+          <li>Spending time with family</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Declaration</h2>
+        <p>
+          I hereby declare that all the information provided above is true to
+          the best of my knowledge and belief.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
